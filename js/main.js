@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $(document).ready(function() {
     $("#myBirthDate").mask("99/99/9999");
 });
@@ -61,12 +62,15 @@ function clearAkanMessage() {
     document.getElementById('message').innerHTML = "";
 >>>>>>> 2864fd7... added attributes
 =======
+=======
+>>>>>>> 24be427... linked index.html with dng.html
 var input = document.getElementById("myInput");
 input.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
         event.preventDefault();
         document.getElementById("myBtn").click();
     }
+<<<<<<< HEAD
 =======
 $(document).ready(function() {
     $("#myBirthDate").mask("99/99/9999");
@@ -113,4 +117,21 @@ function getAkanName() {
 function clearAkanMessage() {
     document.getElementById('message').innerHTML = "";
 >>>>>>> 2864fd7... added attributes
+=======
+});
+
+function myFunction() {
+    var d = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+
+    var n = weekday[d.getDay()];
+    document.getElementById("demo").innerHTML = n;
+>>>>>>> 24be427... linked index.html with dng.html
 }
