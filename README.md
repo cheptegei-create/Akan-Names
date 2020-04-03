@@ -17,4 +17,4 @@ To run this project click on this link https://cheptegei-create.github.io/Akan-N
 ## Author's Name
 David Kiptoo Cheptegei
 ## Licence
-Check out MIT license at this link https://github.com/cheptegei-create/Akan-Names/community/license/new?branch=master&template=mit
+Check out MIT license at this link LICENSE
