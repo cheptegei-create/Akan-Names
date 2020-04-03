@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Generate Akan Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .hero-image {
+            background-image: url("images/Akan-woman.jpg");
+            background-color: #cccccc;
+            height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(236, 218, 219);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hero-image">
+                    <div class="hero-text">
+                        <h1 class="bg-success"><span style="font-size: medium; ">Female</span></h1>
+                        <ul class="fs11 ">
+                            <li>Sunday: Akosua</li>
+                            <li>Monday: Adwoa</li>
+                            <li>Tuesday: Abenaa</li>
+                            <li>Wednesday: Akua</li>
+                            <li>Thursday: Yaa</li>
+                            <li>Friday: Afua</li>
+                            <li>Saturday: Ama</li>
+                        </ul>
+                        <h2 class="bg-success"><span style="font-size: medium; ">Male</span></h2>
+                        <ul class="fs11 ">
+                            <li>Sunday: Kwasi</li>
+                            <li>Monday: Kwadwo</li>
+                            <li>Tuesday: Kwabena</li>
+                            <li>Wednesday: Kwaku</li>
+                            <li>Thursday: Yaw</li>
+                            <li>Friday: Kofi</li>
+                            <li>Saturday: Kwame</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="jumbotron ">
+                    <h3><span style="color: blue; ">Enter your Date of Birth and Gender</span></h3>
+                </div>
+                <form>
+                    <label for="birthday ">Birthday:</label>
+                    <input type="date " id="birthday " name="birthday ">
+                    <hr>
+                    <div class="rdio rdio-default fs11 ">
+                        <input type="radio " id="male " name="gender " value="male ">
+                        <label for="male ">Male</label><br>
+                    </div>
+                    <div class="rdio rdio-default fs11 ">
+                        <input type="radio " id="female " name="gender " value="female ">
+                        <label for="female ">Female</label><br>
+                    </div>
+                </form>
+                <button type="submit " onclick="getAkanName(); return false; " class="btn btn-primary btn-xs ">Submit</button>
+                <button type="reset " onclick="clearAkanMessage(); return false; " class="btn btn-default btn-xs ">Cancel</button>
+                <div class="your-akan-name ">
+                    <p id="message " class="output "></p>
+                </div>
+                <p>If you enter the required details and click submit it will show your Akan name.</p>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js " integrity="sha256-fvFKHgcKai7J/0TM9ekjyypGDFhho9uKmuHiFVfScCA=" crossorigin=" anonymous "></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+                <script src="js/main.js "></script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
