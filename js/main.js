@@ -17,7 +17,7 @@ function getAkanName() {
     } else {
         for (var i = 0; i < myGender.length; i++) {
             if (myGender[i].checked) {
-                if (myGender[i].value === "Male") {
+                if (myGender[i].value === "male") {
                     document.getElementById('message').innerHTML = "<span><i class=\"fa fa-male\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + maleAkanNames[dayOfTheWeek] + "</span>";
                 } else {
                     document.getElementById('message').innerHTML = "<span><i class=\"fa fa-female\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
@@ -28,4 +28,8 @@ function getAkanName() {
             }
         }
     }
+}
+
+function clearAkanMessage() {
+    document.getElementById('message').innerHTML = "";
 }
